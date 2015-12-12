@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b85b885f-d986-4fbc-b8e0-c040081c071b" name="krazer" url="http://gruntovka-krazer.ru">
+        <fileTransfer host="gruntovka-krazer.ru" port="21" username="cn71621_sanjar">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="2dd323a6-e4d2-4f0a-bb01-b3943389e3fb" name="su10" url="http://su10.su">
+        <fileTransfer host="su10.su" port="21" password="df98df9adf9adf9ddf98df9adf9adf9ddfc8dfcb" username="su10su_sanjar">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="799f4273-6f65-44f1-8483-35ac31662f02" name="stroi-him" url="http://stroy-him.com">
+        <fileTransfer host="stroy-him.com" port="21" username="stroyhicom_sanjarbek">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

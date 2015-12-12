@@ -1,0 +1,379 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: Arial;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*--------------------------------------reset--------------------------------------------------------*/
+.header{
+width:960px;
+    margin:0 auto;
+    cursor: pointer;
+    }
+/*-------------------навигация в шапке-------------------------------------*/
+nav.top-navigation{
+    margin-top:18px;
+    float: right;
+    position: relative;
+    clear:both;
+    }
+nav.top-navigation > ul{}
+nav.top-navigation > ul > li{
+    float: left;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-left: 1px solid #ccc;
+    position: relative;
+    height: 16px;
+}
+nav.top-navigation > ul > li:first-child{
+    border-left:none
+}
+nav.top-navigation > ul > li:hover > a {
+    color:#cc0000;
+}
+nav.top-navigation > ul > li > a{
+    line-height: 1;
+    color: #000;
+    padding: 0 15px;
+    font: normal 14px/1.4 'CitrusGothic', sans-serif;
+}
+nav.top-navigation > ul > li > a > span{
+    display: block;
+    position: relative;
+}
+.logo{
+  margin-top:18px;
+}
+/*-----------------------логотип начало----------------------------------------*/
+#top-logo{
+    font-size: 32px;
+    float:left;
+    position: relative;
+    top:-19px
+}
+#top-logo{}
+/*-----------------------логотип конец----------------------------------------*/
+.contacts{
+    float:right;
+    width:450px;
+    text-align:right;
+}
+#contacts{
+    float: left;
+    font-size:22px;
+    font-family:'CitrusGothic', sans-serif;
+    display: inline-block;
+    color: #cc0000;
+    padding-left: 20px;
+}
+#contacts span{
+    font:normal 16px 'CitrusGothic', sans-serif;
+    color:#555;
+}
+#contacts label{
+    font-family: 'CitrusGothic', sans-serif;
+    font-size:13px;
+    color: #cc0000;
+    padding-bottom: 1px;
+}
+#contacts label:hover{
+    border-bottom: 1px dashed #cc0000;
+    cursor: pointer;
+}
+.search{
+    float: right;
+    display:block;
+    text-align: left;
+    border-left: 1px dashed #cccccc;
+    padding-left: 20px;
+}
+.search span{
+    float: left;
+    font-size: 12px;
+    margin-top:10px;
+    color: #cc0000;
+}
+.search span:hover{
+    border-bottom: 1px dashed #cc0000;
+    padding-bottom: 1px;
+    cursor: pointer;
+}
+input#h_search_form_inp{
+    width:220px;
+
+}
+/*------------------------------слайдер начало---------------------------------*/
+#slider{
+    width:100%;
+    height:348px;
+    background: url("about_bg.jpg");
+    border-top:1px solid #ccc;
+    padding-top:5px;
+}
+#slider section{
+    width:960px;
+    margin:0 auto
+}
+#slider-text{
+    float:left;
+    width:500px;
+}
+#slider-text p{
+    color:#fff;
+    text-align:left;
+    margin-top:25px;
+    line-height: 1.2;
+}
+#slider-photo{
+   margin-top:25px;
+    padding:10px;
+    float: right;
+    background: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+/*------------------------------слайдер конец---------------------------------*/
+#content{
+    background: #f3f3f3;
+}
+/*------------------------------условия начало----------------------------------*/
+section#container{
+    width:960px;
+    margin:0 auto;
+    padding-bottom: 22px;
+}
+section#container h3{
+    font-size: 24px;
+    margin: 0 0 15px;
+    color: #333;
+    font-weight: normal;
+    padding-top: 25px;
+}
+#servis > ul, section#container > ul{
+    text-align: justify;
+    position: absolute;
+    width:960px;
+    z-index: 2;
+    border-bottom: 1px solid #CDCDCD;
+    padding-bottom: 22px;
+
+}
+section#container > ul > li{
+    display: inline-table;
+    width:170px;
+    position:relative;
+    margin-right: 10px;
+}
+section#container > ul > li:last-child{
+    margin-right: 0;
+}
+section#container > ul > li > a >div.usl{
+    padding: 9px;
+    border: 1px solid #e0e0e0;
+    background: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+section#container > ul > li > a{
+    width:170px;
+}
+section#container > ul > li > a:after{
+    content: "";
+    position: absolute;
+    top:112px;
+    z-index: -1;
+    width: 95px;
+    height: 50px;
+    left:80px;
+    -webkit-box-shadow: 0 15px 0px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 0 15px 0px rgba(0, 0, 0, 0.35);
+    -o-box-shadow: 0 15px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 15px 0px rgba(0, 0, 0, 0.35);
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+section#container > ul > li > img{
+    width:100%;
+    }
+section#container > ul > li > .usl-pre > a{
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    display: block;
+    font-size: 16px;
+    padding: 0 5px;
+    margin-top: 15px;
+    line-height: 1.2;
+}
+section#container > ul > li > .usl-pre > a:hover{
+    line-height: 1.2;
+    color:#cc0000;
+    text-decoration: underline;
+}
+/*===================================================servis-home--==============================================*/
+
+#servis > ul {
+    width:960px;
+position: relative;
+}
+#servis > ul > li{
+    display:inline-table;
+    width:300px;
+    margin-right: 25px;
+}
+#servis > ul > li:last-child{
+    margin-right: 0;
+}
+#servis > ul > li > .image-swevis{
+    border:2px solid #fff;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    box-sizing: border-box;
+    padding:8px;
+    background: #E0E0E0;
+    display: block;
+
+}
+#servis > ul > li > p{
+    margin:15px 0;
+    text-align: justify;
+    font: 14px/1.4 "CitrusGothic",sans-serif;
+    color: #000;
+}
+#servis > ul > li > a{
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+    line-height: 1;
+    margin-top: 25px;
+    color: #cc0000;
+}
+#servis > ul > li > a:hover{
+    text-decoration: underline;
+
+}
+    /*==================================================footer======================================================*/
+footer{
+    bottom: 0;
+    clear: both;
+    background: #cccccc;
+}
+#footer{
+    position: relative;
+    margin: 0 auto;
+   width:960px;
+}
+#ooovekostroy ul{
+    float:right;
+}
+#ooovekostroy > ul > li{
+    display: inline-block;
+    list-style: outside none none;
+    line-height: 1.1;
+    font-size: 12px;
+    border-right:1px solid #666666;
+}
+#ooovekostroy > ul > li:last-child{
+    border-right:none
+}
+#ooovekostroy > ul > li > a{
+    padding: 0 10px;
+    color: #666666;
+    text-decoration: none;
+}
+#ooovekostroy > ul > li > a:hover{
+    text-decoration: underline;
+}
+#ooovekostroy span{
+    color: #333333;
+    font-size:18px;
+}
+#ooovekostroy{
+    padding-top: 16px;
+}
+#copyright ul{
+float:right;
+padding-bottom: 10px;
+}
+#copyright ul li{
+    display: inline-table;
+    margin-left: 5px;
+
+}
+#copyright ul li img{
+    width:35px;
+}
+#copyright p{
+    float: left;
+color: #666666;
+    font-size:11px;
+    padding-top:15px;
+}
+#copyright{
+    margin-top: 10px;
+}
+#copyright ul li:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
